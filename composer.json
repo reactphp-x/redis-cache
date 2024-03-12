@@ -1,0 +1,19 @@
+{
+    "name": "reactphp-framework/redis-cache",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Reactphp\\Framework\\RedisCache\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wpjscc",
+            "email": "wpjscc@gmail.com"
+        }
+    ],
+    "require": {
+        "react/cache": "^1.2",
+        "clue/redis-react": "^2.7"
+    }
+}
