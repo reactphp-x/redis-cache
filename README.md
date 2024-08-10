@@ -1,9 +1,9 @@
-# reactphp-framework-redis-cache
+# reactphp-x-redis-cache
 
 ## install
 
 ```
-composer require reactphp-framework/redis-cache -vvv
+composer require reactphp-x/redis-cache -vvv
 ```
 
 
@@ -11,7 +11,7 @@ composer require reactphp-framework/redis-cache -vvv
 
 ```php
 use Clue\React\Redis\RedisClient;
-use Reactphp\Framework\RedisCache\RedisCache;
+use ReactphpX\RedisCache\RedisCache;
 $redis = new RedisClient('redis://:h%40llo@localhost');
 // $redis = new RedisClient('redis://ignored:h%40llo@localhost');
 // $redis = new RedisClient('redis://localhost?password=h%40llo');

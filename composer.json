@@ -1,9 +1,9 @@
 {
-    "name": "reactphp-framework/redis-cache",
+    "name": "reactphp-x/redis-cache",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Reactphp\\Framework\\RedisCache\\": "src/"
+            "ReactphpX\\RedisCache\\": "src/"
         }
     },
     "authors": [

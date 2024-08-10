@@ -1,6 +1,6 @@
 <?php
 
-namespace Reactphp\Framework\RedisCache;
+namespace ReactphpX\RedisCache;
 
 use React\Cache\CacheInterface;
 
